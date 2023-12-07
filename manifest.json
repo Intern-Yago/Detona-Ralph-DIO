@@ -1,13 +1,13 @@
 {
-    "name": "detona-ralph",
-    "short_name": "detona-ralph",
+    "name": "Detona Ralph",
+    "short_name": "detona",
     "theme_color": "#101a38",
     "theme-color": "#101a38",
     "background_color": "#101a38",
     "background-color": "#101a38",
     "display": "standalone",
     "start_url": ".",
-    "description": "detona-ralph",
+    "description": "detonaralph",
     "icons":[
         {
             "src": "src/images/favicon.jpg",
