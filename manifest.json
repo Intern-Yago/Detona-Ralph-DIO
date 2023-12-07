@@ -10,9 +10,23 @@
     "description": "detonaralph",
     "icons":[
         {
-            "src": "src/images/favicon.jpg",
-            "sizes": "27x27",
+            "src": "src/images/favIcon.png",
+            "sizes": "866x866",
             "type": "image/jpg"
+        }
+    ],
+    "screenshots":[
+        {
+            "src": "src/images/screenshot1.png",
+            "type": "image/png",
+            "sizes": "540x720",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "src/images/screenshot2.png",
+            "type": "image/png",
+            "sizes": "720x540",
+            "form_factor": "wide"
         }
     ]
 }
