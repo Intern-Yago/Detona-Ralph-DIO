@@ -19,6 +19,11 @@ const state = {
     }
 }
 
+function playSound(audioName){
+    let audio = new Audio(`./src/audios/${audioName}.m4a`)
+    audio.play()
+}
+
 function countDown(){
     state.values.curretTime--
     state.view.timeLeft.textContent = state.values.curretTime
@@ -50,6 +55,7 @@ function addListenerHitBox(){
                 state.values.result++
                 state.view.score.textContent = state.values.result
                 state.values.hitPosition = null
+                playSound("hit")
             }
         })
     })
