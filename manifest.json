@@ -1,0 +1,18 @@
+{
+    "name": "detona-ralph",
+    "short_name": "detona-ralph",
+    "theme_color": "#101a38",
+    "theme-color": "#101a38",
+    "background_color": "#101a38",
+    "background-color": "#101a38",
+    "display": "standalone",
+    "start_url": ".",
+    "description": "detona-ralph",
+    "icons":[
+        {
+            "src": "src/images/favicon.jpg",
+            "sizes": "27x27",
+            "type": "image/jpg"
+        }
+    ]
+}
